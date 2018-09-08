@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>search</title>
+	<style type="text/css">
+	body{
+		margin: 0;
+	}
+	#close{
+	object-fit: none;
+    object-position: 0 -26px;
+    height: 13px;
+    width: 16px;
+	}
+
+	#search{
+    object-fit: none;
+    object-position: 0 -49px;
+    height: 25px;
+    width: 18px;
+	}
+	#whole{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		flex-direction: column;
+		padding-bottom: 20px;
+
+	}
+
+	#inner{
+		padding-bottom: 2px;
+		border: 1px solid black;	
+	}
+
+	#text{
+	padding-top: 12px;
+    border: none;
+	}
+
+	h3{
+		text-align: center;
+	}
+
+	</style>
+</head>
+<body>
+<div id="whole">
+<div>
+<div>
+	<h3>Search</h3>
+</div>
+<div id="inner">
+<img src="icons.svg" alt="icon" id="search">
+<input type="search" name="search" value="search" id="text">
+<img src="icons.svg" alt="icon" id="close">
+</div>
+</div>
+</div>
+</body>
+</html>
